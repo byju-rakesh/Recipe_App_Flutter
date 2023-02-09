@@ -1,0 +1,28 @@
+name: recipe_app_flutter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  floor: ^1.4.1
+  faker: ^2.0.0
+  fluttertoast: ^8.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  floor_generator: ^1.4.1
+  build_runner: ^2.1.2
+  
+
+flutter:
+  uses-material-design: true
+  
+  
